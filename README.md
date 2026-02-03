@@ -8,6 +8,9 @@ Project Description
 CLUEper is an iOS mobile application idea I have had since I was a kid. Whenever I’d play the board game CLUE with my family, we’d always run out of the paper notecards. The idea behind this app is to replace the physical notecards with an electronic one, allowing players to digitally track suspects, weapons, and rooms across rounds of gameplay. 
 The app is intended to be lightweight, intuitive, and usable during live board game sessions without disrupting play. CLUEper is planned for release on the Apple iOS App Store, hopefully before I graduate near the end of this semester.
 
+Official Rules to the boardgame CLUE: https://www.hasbro.com/common/instruct/clueins.pdf
+(Will need to build code logic around these rules)
+
 GOALS
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 Replace the physical Clue notecard with a digital notecard.
