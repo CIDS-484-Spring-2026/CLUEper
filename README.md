@@ -71,6 +71,7 @@ SwiftUI screen mockup showing:
 // Current State of NewGameView
 <img width="287" height="602" alt="Screenshot 2026-02-05 at 12 31 48 PM" src="https://github.com/user-attachments/assets/06a2ba46-116f-4fad-99a4-f257aed15059" />
 
+<img width="307" height="607" alt="Screenshot 2026-02-05 at 12 35 39 PM" src="https://github.com/user-attachments/assets/2b3ae9bf-7dab-4c49-84ba-5fcb8932c0cf" />
 
 Suspects / Weapons / Rooms checklist
 
