@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8764AD262F35132A00F6BDAC /* NewGameFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764AD252F35132A00F6BDAC /* NewGameFlowView.swift */; };
+		8764AD282F3521C700F6BDAC /* DetectiveNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764AD272F3521C700F6BDAC /* DetectiveNotesView.swift */; };
+		8764AD2A2F35245F00F6BDAC /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764AD292F35245F00F6BDAC /* ProgressBar.swift */; };
+		8764AD2C2F35247900F6BDAC /* NewGamePlayerCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764AD2B2F35247900F6BDAC /* NewGamePlayerCountView.swift */; };
+		8764AD2E2F35249300F6BDAC /* NewGamePlayerSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764AD2D2F35249300F6BDAC /* NewGamePlayerSelectView.swift */; };
+		8764AD322F35263300F6BDAC /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764AD312F35263300F6BDAC /* Player.swift */; };
+		8764AD352F352DE300F6BDAC /* NewGameCardSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764AD342F352DE300F6BDAC /* NewGameCardSelectView.swift */; };
 		8773D4262F32DDA40081C633 /* CLUEperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8773D4252F32DDA40081C633 /* CLUEperApp.swift */; };
-		8773D4282F32DDA40081C633 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8773D4272F32DDA40081C633 /* ContentView.swift */; };
+		8773D4282F32DDA40081C633 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8773D4272F32DDA40081C633 /* WelcomeView.swift */; };
 		8773D42A2F32DDA60081C633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8773D4292F32DDA60081C633 /* Assets.xcassets */; };
-		8773D42D2F32DDA60081C633 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8773D42C2F32DDA60081C633 /* Preview Assets.xcassets */; };
 		8773D4372F32DDA60081C633 /* CLUEperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8773D4362F32DDA60081C633 /* CLUEperTests.swift */; };
 		8773D4412F32DDA60081C633 /* CLUEperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8773D4402F32DDA60081C633 /* CLUEperUITests.swift */; };
 		8773D4432F32DDA60081C633 /* CLUEperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8773D4422F32DDA60081C633 /* CLUEperUITestsLaunchTests.swift */; };
+		87DFD5A72F32F7E6009DCFC3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DFD5A62F32F7E6009DCFC3 /* HomeView.swift */; };
+		87DFD5A92F32F85A009DCFC3 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DFD5A82F32F85A009DCFC3 /* RootView.swift */; };
+		87DFD5AD2F33CB75009DCFC3 /* MarqueeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DFD5AC2F33CB75009DCFC3 /* MarqueeText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +43,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8764AD252F35132A00F6BDAC /* NewGameFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameFlowView.swift; sourceTree = "<group>"; };
+		8764AD272F3521C700F6BDAC /* DetectiveNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectiveNotesView.swift; sourceTree = "<group>"; };
+		8764AD292F35245F00F6BDAC /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		8764AD2B2F35247900F6BDAC /* NewGamePlayerCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGamePlayerCountView.swift; sourceTree = "<group>"; };
+		8764AD2D2F35249300F6BDAC /* NewGamePlayerSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGamePlayerSelectView.swift; sourceTree = "<group>"; };
+		8764AD312F35263300F6BDAC /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8764AD342F352DE300F6BDAC /* NewGameCardSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameCardSelectView.swift; sourceTree = "<group>"; };
 		8773D4222F32DDA40081C633 /* CLUEper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLUEper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8773D4252F32DDA40081C633 /* CLUEperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLUEperApp.swift; sourceTree = "<group>"; };
-		8773D4272F32DDA40081C633 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8773D4272F32DDA40081C633 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		8773D4292F32DDA60081C633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8773D42C2F32DDA60081C633 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8773D4322F32DDA60081C633 /* CLUEperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLUEperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8773D4362F32DDA60081C633 /* CLUEperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLUEperTests.swift; sourceTree = "<group>"; };
 		8773D43C2F32DDA60081C633 /* CLUEperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLUEperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8773D4402F32DDA60081C633 /* CLUEperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLUEperUITests.swift; sourceTree = "<group>"; };
 		8773D4422F32DDA60081C633 /* CLUEperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLUEperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87DFD5A62F32F7E6009DCFC3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		87DFD5A82F32F85A009DCFC3 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		87DFD5AC2F33CB75009DCFC3 /* MarqueeText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarqueeText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +89,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8764AD332F352A2000F6BDAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		8773D4192F32DDA40081C633 = {
 			isa = PBXGroup;
 			children = (
@@ -95,19 +120,21 @@
 			isa = PBXGroup;
 			children = (
 				8773D4252F32DDA40081C633 /* CLUEperApp.swift */,
-				8773D4272F32DDA40081C633 /* ContentView.swift */,
+				87DFD5A82F32F85A009DCFC3 /* RootView.swift */,
+				8773D4272F32DDA40081C633 /* WelcomeView.swift */,
+				8764AD252F35132A00F6BDAC /* NewGameFlowView.swift */,
+				8764AD272F3521C700F6BDAC /* DetectiveNotesView.swift */,
+				87DFD5A62F32F7E6009DCFC3 /* HomeView.swift */,
+				87DFD5AC2F33CB75009DCFC3 /* MarqueeText.swift */,
+				8764AD292F35245F00F6BDAC /* ProgressBar.swift */,
+				8764AD2B2F35247900F6BDAC /* NewGamePlayerCountView.swift */,
+				8764AD2D2F35249300F6BDAC /* NewGamePlayerSelectView.swift */,
+				8764AD342F352DE300F6BDAC /* NewGameCardSelectView.swift */,
+				8764AD312F35263300F6BDAC /* Player.swift */,
 				8773D4292F32DDA60081C633 /* Assets.xcassets */,
-				8773D42B2F32DDA60081C633 /* Preview Content */,
+				8764AD332F352A2000F6BDAC /* Preview Content */,
 			);
 			path = CLUEper;
-			sourceTree = "<group>";
-		};
-		8773D42B2F32DDA60081C633 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				8773D42C2F32DDA60081C633 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		8773D4352F32DDA60081C633 /* CLUEperTests */ = {
@@ -231,7 +258,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8773D42D2F32DDA60081C633 /* Preview Assets.xcassets in Resources */,
 				8773D42A2F32DDA60081C633 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +283,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8773D4282F32DDA40081C633 /* ContentView.swift in Sources */,
+				8764AD322F35263300F6BDAC /* Player.swift in Sources */,
+				8764AD2E2F35249300F6BDAC /* NewGamePlayerSelectView.swift in Sources */,
+				87DFD5A92F32F85A009DCFC3 /* RootView.swift in Sources */,
+				8764AD282F3521C700F6BDAC /* DetectiveNotesView.swift in Sources */,
+				87DFD5A72F32F7E6009DCFC3 /* HomeView.swift in Sources */,
+				87DFD5AD2F33CB75009DCFC3 /* MarqueeText.swift in Sources */,
+				8773D4282F32DDA40081C633 /* WelcomeView.swift in Sources */,
+				8764AD352F352DE300F6BDAC /* NewGameCardSelectView.swift in Sources */,
+				8764AD2C2F35247900F6BDAC /* NewGamePlayerCountView.swift in Sources */,
 				8773D4262F32DDA40081C633 /* CLUEperApp.swift in Sources */,
+				8764AD2A2F35245F00F6BDAC /* ProgressBar.swift in Sources */,
+				8764AD262F35132A00F6BDAC /* NewGameFlowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CLUEper/Preview Content\"";
+				DEVELOPMENT_TEAM = 48D99J5269;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -445,6 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CLUEper/Preview Content\"";
+				DEVELOPMENT_TEAM = 48D99J5269;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

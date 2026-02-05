@@ -11,7 +11,8 @@ import SwiftUI
 struct CLUEperApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
     }
 }
+
