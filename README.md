@@ -61,8 +61,15 @@ PROTOTYPE
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 Prototype (placeholder)
 SwiftUI screen mockup showing:
+
+// Example of using Xcode and SwiftUI
 <img width="1440" height="900" alt="Screenshot 2026-02-05 at 12 27 45 PM" src="https://github.com/user-attachments/assets/6a06ccd8-fbda-4f40-a545-34b761667d86" />
 
+// Current State of WelcomeView
+<img width="286" height="598" alt="Screenshot 2026-02-05 at 12 31 21 PM" src="https://github.com/user-attachments/assets/da1a1e5e-ebb0-4ab4-b0cb-5d30254d3de1" />
+
+// Current State of NewGameView
+<img width="287" height="602" alt="Screenshot 2026-02-05 at 12 31 48 PM" src="https://github.com/user-attachments/assets/06a2ba46-116f-4fad-99a4-f257aed15059" />
 
 
 Suspects / Weapons / Rooms checklist
