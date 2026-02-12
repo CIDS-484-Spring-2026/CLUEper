@@ -93,7 +93,7 @@ TBD…
 CURRENT STATUS
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-Currently designing all the different pages for this IOS app, WelcomeView -> NewGameView -> SetupPages. Next I plan on adding the detective note page which will be where you can see your notecard and log game rounds, you will have the ability to update your notecard autmatically or it will be updated off the logs. Deduction logic yet to be determined.. I also plan for near the end of milestone 2 starting an AI probability screen to show you the likelyhood of certain cards being in the middle based on deductions you made.
+Currently designing all the different pages for this IOS app, WelcomeView -> NewGameView -> SetupPages. Next, I plan on adding the detective note page, which will be where you can see your notecard and log game rounds, you will have the ability to update your notecard autmatically or it will be updated off the logs. Deduction logic yet to be determined.. I also plan for near the end of milestone 2 starting an AI probability screen to show you the likelihood of certain cards being in the middle based on deductions you made.
 ________________________________________________________________________________________________________________________________________________________________________________________
 
 
@@ -118,8 +118,6 @@ Minute 3–4:
 
   Walk through the folder structure
 
-
-  Briefly explain the prototype code.
 
 Minute 4–5:
   Current progress
