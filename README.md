@@ -97,35 +97,9 @@ Currently designing all the different pages for this IOS app, WelcomeView -> New
 ________________________________________________________________________________________________________________________________________________________________________________________
 
 
-5 Minute Video PlaceHolder
+5 Minute Video
 ________________________________________________________________________________________________________________________________________________________________________
 
-Video Outline Idea
-
-Minute 0–1:
-  Introduction
-
-  What is CLUEper?
-
-Minute 1–3:
-  Walk through your README
-
-
-Explain goals, features, and tech stack
-Minute 3–4:
-  Show GitHub repo.
-
-
-  Walk through the folder structure
-
-
-Minute 4–5:
-  Current progress
-
-
-  What do you plan to build next?
-
-
-  Mention the App Store goal
+https://mediaspace.wisconsin.edu/media/Kaltura+Capture+recording+-+February+12th+2026%2C+1%3A44%3A12+pm/1_g767bacv
 
 
