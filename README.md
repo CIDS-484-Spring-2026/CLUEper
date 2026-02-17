@@ -65,16 +65,12 @@ SwiftUI screen mockup showing:
 // Example of using Xcode and SwiftUI
 <img width="1440" height="900" alt="Screenshot 2026-02-05 at 12 27 45 PM" src="https://github.com/user-attachments/assets/6a06ccd8-fbda-4f40-a545-34b761667d86" />
 
-// Current State of WelcomeView
+// Current State of Setup Pages
 <img width="286" height="598" alt="Screenshot 2026-02-05 at 12 31 21 PM" src="https://github.com/user-attachments/assets/da1a1e5e-ebb0-4ab4-b0cb-5d30254d3de1" />
-
-// Current State of NewGameView
 <img width="287" height="602" alt="Screenshot 2026-02-05 at 12 31 48 PM" src="https://github.com/user-attachments/assets/06a2ba46-116f-4fad-99a4-f257aed15059" />
-
 <img width="307" height="607" alt="Screenshot 2026-02-05 at 12 35 39 PM" src="https://github.com/user-attachments/assets/2b3ae9bf-7dab-4c49-84ba-5fcb8932c0cf" />
 
 Suspects / Weapons / Rooms checklist
-
 
 Basic data model:
 Card
@@ -87,13 +83,13 @@ Simple SwiftUI view with toggles or checkmarks
 Navigation
 
 Folder Structure
-TBD…
+TBD… Every page so far has its own file, like "progress bar," which is being reused.
 
 
 CURRENT STATUS
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-Currently designing all the different pages for this IOS app, WelcomeView -> NewGameView -> SetupPages. Next, I plan on adding the detective note page, which will be where you can see your notecard and log game rounds, you will have the ability to update your notecard autmatically or it will be updated off the logs. Deduction logic yet to be determined.. I also plan for near the end of milestone 2 starting an AI probability screen to show you the likelihood of certain cards being in the middle based on deductions you made.
+Currently designing all the different pages for this IOS app, WelcomeView -> NewGameView -> SetupPages. Next, I plan on adding the detective note page, which will be where you can see your notecard and log game rounds, you will have the ability to update your notecard automatically, or it will be updated from the logs. Deduction logic yet to be determined. I also plan for near the end of milestone 2 starting an AI probability screen to show you the likelihood of certain cards being in the middle based on deductions you made.
 ________________________________________________________________________________________________________________________________________________________________________________________
 
 
