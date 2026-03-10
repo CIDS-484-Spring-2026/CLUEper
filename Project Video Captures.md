@@ -5,3 +5,5 @@ https://streamable.com/vh59wz
 
 https://github.com/user-attachments/assets/9e272f74-035c-4414-b12b-6ef23012ceaf
 
+Note: I removed the "YourHand" screen. It looked stupid and wasn't worth trying to polish to me.
+
