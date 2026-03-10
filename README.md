@@ -109,7 +109,9 @@ MileStone Update 1:
 Currently designing all the different pages for this IOS app, WelcomeView -> NewGameView -> SetupPages. Next, I plan on adding the detective note page, which will be where you can see your notecard and log game rounds, you will have the ability to update your notecard automatically, or it will be updated from the logs. Deduction logic yet to be determined. I also plan for near the end of milestone 2 starting an AI probability screen to show you the likelihood of certain cards being in the middle based on deductions you made.
 
 Milestone Update 2:
-We now have the ability to log which cards you have and view the DetectiveNotesView you than have tabs at the top of the screen as shown here: <img width="300" height="137" alt="Screenshot 2026-03-10 115720" src="https://github.com/user-attachments/assets/eba1d903-6b3c-412d-899c-2ec4dbcd97d5" />
+We now have the ability to log which cards you have and view the DetectiveNotesView you than have tabs at the top of the screen as shown here:
+<img width="300" height="137" alt="Screenshot 2026-03-10 115720" src="https://github.com/user-attachments/assets/eba1d903-6b3c-412d-899c-2ec4dbcd97d5" />
+
 This allows you to tab over to the previous logs of recorded game rounds that you creat when clicking on the +log option. The AI probability page is yet to be implemented however simple rules are already auto checking off things in your DetectiveNotesView screen. For example when recording a round if you say someone showed you a certain card that card will automatically be checked off on the Notes page. (I do still need to make it give a red "x" for everyone else as you can't have more than one of the same card.
 
 ________________________________________________________________________________________________________________________________________________________________________________________
