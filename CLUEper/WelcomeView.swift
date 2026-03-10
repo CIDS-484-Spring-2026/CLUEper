@@ -29,6 +29,7 @@ struct WelcomeView: View {
                         .foregroundColor(.black)
 
                     Spacer()
+                    
                     // New Game button
                     NavigationLink {
                         NewGameFlowView()
@@ -38,7 +39,10 @@ struct WelcomeView: View {
                             Text("New Game")
                                 .fontWeight(.semibold)
                         }
+                        
+                        //"+New Game" Button Size and Styling
                         .frame(width: 220, height: 50)
+                        
                         .background(Color.red)
                         .foregroundColor(.black)
                         .cornerRadius(12)
@@ -50,7 +54,7 @@ struct WelcomeView: View {
 
                     Spacer()
 
-                    // Marquee text
+                    // Marquee text - Animated Rolling Text
                     MarqueeText(
                         text: "Track suspects, weapons, and rooms as you solve the mystery. Never run out of notecards again!",
                         font: .footnote,
@@ -75,6 +79,6 @@ struct WelcomeView: View {
 struct WelcomeView_Previews: PreviewProvider {
     static var previews: some View {
         WelcomeView()
-            .preferredColorScheme(.dark)
+            //.preferredColorScheme(.dark)
     }
 }

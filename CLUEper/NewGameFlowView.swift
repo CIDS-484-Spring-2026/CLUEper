@@ -1,10 +1,3 @@
-//
-//  NewGameFlowView.swift
-//  CLUEper
-//
-//  Created by Elijah William Belz on 2/5/26.
-//
-
 import SwiftUI
 
 struct NewGameFlowView: View {
@@ -57,5 +50,6 @@ struct NewGameFlowView: View {
         }
         .navigationTitle("New Game")
         .navigationBarTitleDisplayMode(.inline)
+        .preferredColorScheme(ColorScheme.dark)
     }
 }

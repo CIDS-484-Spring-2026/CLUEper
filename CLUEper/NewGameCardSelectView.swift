@@ -1,8 +1,3 @@
-//
-//  NewGameCardSelectView.swift
-//  CLUEper
-//
-
 import SwiftUI
 
 struct NewGameCardSelectView: View {
@@ -18,7 +13,7 @@ struct NewGameCardSelectView: View {
     ]
 
     let weapons = [
-        "Candlestick", "Dagger", "Lead Pipe",
+        "Candlestick", "Knife", "Lead Pipe",
         "Revolver", "Rope", "Wrench"
     ]
 
@@ -36,10 +31,11 @@ struct NewGameCardSelectView: View {
             Text("What cards do you have?")
                 .font(.title2)
                 .fontWeight(.bold)
+                .foregroundColor(.white)
 
             if let index = selectedPlayerIndex {
                 Text("Select the cards in your hand, \(players[index].name)")
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.gray)
             }
 
             ScrollView {
@@ -56,27 +52,54 @@ struct NewGameCardSelectView: View {
                 }
                 .frame(maxWidth: .infinity)
                 .padding()
-                .background(Color.gray.opacity(0.3))
-                .cornerRadius(12)
-
-                Button("Start Game") {
-                    // save selectedCards → game state
-                }
-                .frame(maxWidth: .infinity)
-                .padding()
-                .background(Color.red)
+                .background(Color.white.opacity(0.1))
                 .foregroundColor(.white)
                 .cornerRadius(12)
+
+                NavigationLink {
+
+                    if let index = selectedPlayerIndex {
+                        DetectiveNotesView(
+                            players: players.map { $0.name },
+                            yourCards: Array(selectedCards),
+                            yourPlayerIndex: index
+                        )
+                    }
+
+                } label: {
+                    Text("Start Game")
+                        .fontWeight(.semibold)
+                        .frame(maxWidth: .infinity)
+                        .padding()
+                        .background(Color.red)
+                        .foregroundColor(.black)
+                        .cornerRadius(12)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 12)
+                                .stroke(Color.black, lineWidth: 2)
+                        )
+                }
+                .disabled(selectedCards.isEmpty || selectedPlayerIndex == nil)
+                .opacity(selectedCards.isEmpty || selectedPlayerIndex == nil ? 0.5 : 1)
             }
         }
         .padding()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.black)
+        
+        
+        //Hides Navigation Link Back Button & Disables it
+        .navigationBarBackButtonHidden(true)
+        .interactiveDismissDisabled(true)
     }
 
     @ViewBuilder
     private func cardSection(title: String, cards: [String]) -> some View {
         VStack(alignment: .leading, spacing: 12) {
+
             Text(title)
                 .font(.headline)
+                .foregroundColor(.white)
 
             LazyVGrid(columns: [GridItem(.adaptive(minimum: 120))], spacing: 12) {
                 ForEach(cards, id: \.self) { card in
@@ -87,14 +110,23 @@ struct NewGameCardSelectView: View {
                         .background(
                             selectedCards.contains(card)
                             ? Color.red
-                            : Color(.secondarySystemBackground)
+                            : Color.white.opacity(0.06)
                         )
                         .foregroundColor(
                             selectedCards.contains(card)
-                            ? .white
-                            : .primary
+                            ? .black
+                            : .white
                         )
                         .cornerRadius(12)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 12)
+                                .stroke(
+                                    selectedCards.contains(card)
+                                    ? Color.red
+                                    : Color.white.opacity(0.15),
+                                    lineWidth: 2
+                                )
+                        )
                         .onTapGesture {
                             if selectedCards.contains(card) {
                                 selectedCards.remove(card)
