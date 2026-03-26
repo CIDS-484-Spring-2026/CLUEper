@@ -8,7 +8,7 @@ Project Description
 CLUEper is an iOS mobile application idea I have had since I was a kid. Whenever I’d play the board game CLUE with my family, we’d always run out of the paper notecards. The idea behind this app is to replace the physical notecards with an electronic one, allowing players to digitally track suspects, weapons, and rooms across rounds of gameplay. 
 The app is intended to be lightweight, intuitive, and usable during live board game sessions without disrupting play. CLUEper is planned for release on the Apple iOS App Store, hopefully before I graduate near the end of this semester.
 
-Official Rules to the boardgame CLUE: https://www.hasbro.com/common/instruct/clueins.pdf
+Official Rules to the board game CLUE: https://www.hasbro.com/common/instruct/clueins.pdf
 (Will need to build code logic around these rules)
 
 GOALS
@@ -20,6 +20,8 @@ Track each round of physical gameplay and use this information to update the not
 Ensure the UI is simple enough to use while playing a physical game.
 
 Prepare the app for eventual iOS App Store release
+
+Milestone 3: I would like to get the legend removed from the AI assistant page. I was originally planning on completing that analysis page next. I will be renaming it since it won't be using any API for any AI chat.. It'll be hard-coded. But for now, I think I'm going to use Milestone 3 to tranfer the whole project over to react. 
 
 
 FEATURES
@@ -79,7 +81,7 @@ ________________________________________________________________________________
 FOLDER STRUCTURE
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 Milestone 1
-TBD… Every page so far has its own file, like "progress bar," which is being reused.
+TBD… Every page so far has its own file, like "progress bar," which is used more than once. I would like to overhaul the file structure and add some folders. 
 
 Milestone 2 update:
 CLUEper
@@ -112,7 +114,7 @@ Milestone Update 2:
 We now have the ability to log which cards you have and view the DetectiveNotesView you than have tabs at the top of the screen as shown here:
 <img width="300" height="137" alt="Screenshot 2026-03-10 115720" src="https://github.com/user-attachments/assets/eba1d903-6b3c-412d-899c-2ec4dbcd97d5" />
 
-This allows you to tab over to the previous logs of recorded game rounds that you creat when clicking on the +log option. The AI probability page is yet to be implemented however simple rules are already auto checking off things in your DetectiveNotesView screen. For example when recording a round if you say someone showed you a certain card that card will automatically be checked off on the Notes page. (I do still need to make it give a red "x" for everyone else as you can't have more than one of the same card.
+This allows you to tab over to the previous logs of recorded game rounds that you create when clicking on the +log option. The AI probability page is yet to be implemented however simple rules are already auto checking off things in your DetectiveNotesView screen. For example when recording a round if you say someone showed you a certain card that card will automatically be checked off on the Notes page. (I do still need to make it give a red "x" for everyone else, as you can't have more than one of the same card.
 
 ________________________________________________________________________________________________________________________________________________________________________________________
 
