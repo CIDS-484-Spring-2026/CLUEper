@@ -1,13 +1,6 @@
-//
-//  LogView.swift
-//  CLUEper
-//
-//  Created by Elijah William Belz on 2/17/26.
-//
-
-import Foundation
 import SwiftUI
 
+/// Displays list of past round logs
 struct LogView: View {
     
     let logs: [RoundLog]
@@ -16,6 +9,8 @@ struct LogView: View {
     var body: some View {
         ScrollView {
             VStack(spacing:12){
+                
+                // Newest logs first
                 ForEach(logs.reversed()) { log in
                     card(log)
                 }
@@ -24,7 +19,7 @@ struct LogView: View {
         }
     }
     
-    
+    /// Single log entry UI
     func card(_ log: RoundLog) -> some View {
         VStack(alignment:.leading, spacing:6){
             
@@ -35,6 +30,7 @@ struct LogView: View {
             Text("\(log.suspect) • \(log.weapon) • \(log.room)")
                 .foregroundColor(.white)
             
+            // Conditional logic depending on what is known
             if let shower = log.shownBy {
                 if let shown = log.shownCard {
                     Text("\(shower) showed \(shown)")

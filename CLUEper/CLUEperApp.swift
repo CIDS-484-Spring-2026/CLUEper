@@ -7,11 +7,12 @@
 
 import SwiftUI
 
+/// App entry point
 @main
 struct CLUEperApp: App {
     var body: some Scene {
         WindowGroup {
-            RootView()
+            RootView() // Root navigation controller
         }
     }
 }

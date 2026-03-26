@@ -1,33 +1,22 @@
-//
-//  NewGamePlayerCountView.swift
-//  CLUEper
-//
-//  Created by Elijah William Belz on 2/5/26.
-//
-
 import SwiftUI
 
+/// Step 1: Choose number of players + edit names
 struct NewGamePlayerCountView: View {
+    
     @Binding var players: [Player]
     let onContinue: () -> Void
 
     @State private var count: Int = 5
 
-    let colors: [Color] = [
-        .red, .blue, .green, .yellow, .purple, .orange
-    ]
+    /// Color assigned per player
+    let colors: [Color] = [.red, .blue, .green, .yellow, .purple, .orange]
 
     var body: some View {
-        
         ZStack {
-            
-            // Background
             Color.black.ignoresSafeArea()
-            
             
             VStack(alignment: .leading, spacing: 24) {
 
-                // Title
                 Text("How many players?")
                     .font(.title2)
                     .fontWeight(.bold)
@@ -36,7 +25,7 @@ struct NewGamePlayerCountView: View {
                 Text("Clue supports 3–6 players")
                     .foregroundColor(.white.opacity(0.6))
 
-                // Counter
+                // +/- player count control
                 HStack {
                     Button {
                         if count > 3 {
@@ -45,22 +34,13 @@ struct NewGamePlayerCountView: View {
                                 players.removeLast()
                             }
                         }
-                    } label: {
-                        Text("−")
-                            .font(.system(size: 28, weight: .bold))
-                            .frame(width: 44, height: 44)
-                            .foregroundColor(.white)
-                    }
+                    } label: { Text("−") }
 
                     Spacer()
 
                     VStack {
-                        Text("\(count)")
-                            .font(.system(size: 42, weight: .bold))
-                            .foregroundColor(.white)
-                        Text("players")
-                            .font(.caption)
-                            .foregroundColor(.white.opacity(0.6))
+                        Text("\(count)").font(.system(size: 42, weight: .bold))
+                        Text("players").font(.caption)
                     }
 
                     Spacer()
@@ -75,70 +55,33 @@ struct NewGamePlayerCountView: View {
                                 )
                             )
                         }
-                    } label: {
-                        Text("+")
-                            .font(.system(size: 28, weight: .bold))
-                            .frame(width: 44, height: 44)
-                            .foregroundColor(.white)
-                    }
+                    } label: { Text("+") }
                 }
-                .padding()
-                .background(Color.white.opacity(0.05))
-                .overlay(
-                    RoundedRectangle(cornerRadius: 16)
-                        .stroke(Color.white.opacity(0.2))
-                )
-                .cornerRadius(16)
 
-                // Player list with name editing
-                VStack(spacing: 12) {
+                // Editable player names
+                VStack {
                     ForEach(players.indices, id: \.self) { index in
-                        HStack {
-                            Circle()
-                                .fill(players[index].color)
-                                .frame(width: 14, height: 14)
-
-                            TextField(
-                                "Player \(index + 1)",
-                                text: $players[index].name
-                            )
-                            .padding(10)
-                            .background(Color.white.opacity(0.08))
-                            .cornerRadius(10)
-                            .foregroundColor(.white)
-                        }
+                        TextField(
+                            "Player \(index + 1)",
+                            text: $players[index].name
+                        )
                     }
-                    //Hides Navigation Link Back Button & Disables it
-                    .navigationBarBackButtonHidden(true)
-                    .interactiveDismissDisabled(true)
-
                 }
 
                 Spacer()
 
-                // Continue button
+                // Continue only if all names filled
                 Button("Continue") {
                     onContinue()
                 }
-                .frame(maxWidth: .infinity)
-                .padding()
-                .background(Color.red)
-                .foregroundColor(.black)
-                .cornerRadius(16)
-                .disabled(
-                    players.contains {
-                        $0.name.trimmingCharacters(in: .whitespaces).isEmpty
-                    }
-                )
-                .opacity(
-                    players.contains {
-                        $0.name.trimmingCharacters(in: .whitespaces).isEmpty
-                    } ? 0.5 : 1
-                )
+                .disabled(players.contains {
+                    $0.name.trimmingCharacters(in: .whitespaces).isEmpty
+                })
             }
             .padding()
         }
         .onAppear {
+            // Initialize default players
             if players.isEmpty {
                 players = (0..<count).map {
                     Player(

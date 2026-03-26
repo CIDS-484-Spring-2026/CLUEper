@@ -1,17 +1,10 @@
-//
-//  TextBanner.swift
-//  CLUEper
-//
-//  Created by Elijah William Belz on 2/4/26.
-//
-
-import Foundation
 import SwiftUI
 
+/// Horizontally scrolling text (ticker/marquee effect)
 struct MarqueeText: View {
     let text: String
     let font: Font
-    let speed: Double   // smaller = faster
+    let speed: Double   // pixels per second
 
     @State private var textWidth: CGFloat = 0
     @State private var offset: CGFloat = 0
@@ -25,8 +18,12 @@ struct MarqueeText: View {
                     GeometryReader { textGeo in
                         Color.clear
                             .onAppear {
+                                // Capture text width
                                 textWidth = textGeo.size.width
+                                
+                                // Start off-screen right
                                 offset = geo.size.width
+                                
                                 animate(screenWidth: geo.size.width)
                             }
                     }
@@ -36,6 +33,7 @@ struct MarqueeText: View {
         .clipped()
     }
 
+    /// Infinite scrolling animation
     private func animate(screenWidth: CGFloat) {
         let distance = textWidth + screenWidth
         let duration = distance / speed
@@ -48,4 +46,3 @@ struct MarqueeText: View {
         }
     }
 }
-

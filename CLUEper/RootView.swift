@@ -1,19 +1,15 @@
-//
-//  RootView.swift
-//  CLUEper
-//
-//  Created by Elijah William Belz on 2/3/26.
-//
-
-import Foundation
 import SwiftUI
 
+/// Root switcher for app state (start vs active game) Currently this file is not in use.
 struct RootView: View {
+    
     @State private var hasStartedGame = false
 
     var body: some View {
         Group {
             if hasStartedGame {
+
+                //Replace with HomeView when game state exists
                 WelcomeView()
             } else {
                 WelcomeView()
@@ -21,4 +17,3 @@ struct RootView: View {
         }
     }
 }
-

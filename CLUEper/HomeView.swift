@@ -1,16 +1,12 @@
-//
-//  HomeView.swift
-//  CLUEper
-//
-//  Created by Elijah William Belz on 2/3/26.
-//
-
-import Foundation
 import SwiftUI
 
+/// Placeholder for "game in progress" screen.
+/// (Currently not wired to real game state)
 struct HomeView: View {
     var body: some View {
         ZStack {
+            
+            // Blurred background
             Image("Start_Screen")
                 .resizable()
                 .scaledToFill()
@@ -32,10 +28,10 @@ struct HomeView: View {
                     .font(.caption)
                     .foregroundColor(.white.opacity(0.7))
 
+                // TODO: Hook into actual navigation/state
                 Button("Continue Investigation") {
                     print("Continue")
                 }
-                //.buttonStyle(PrimaryButtonStyle())
 
                 Button("End Current Game") {
                     print("End Game")
@@ -45,19 +41,10 @@ struct HomeView: View {
                 Button("Start New Game") {
                     print("Start New")
                 }
-               // .buttonStyle(SecondaryButtonStyle())
 
                 Spacer()
             }
             .padding(.horizontal)
         }
-    }
-}
-
-// Xcode 14 preview support
-struct HomeView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeView()
-            .preferredColorScheme(.dark)
     }
 }

@@ -1,36 +1,38 @@
 import SwiftUI
 
+/// Entry screen of the app.
+/// Shows branding + navigation into the new game flow.
 struct WelcomeView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                // Background image
+                
+                // Background image (full screen)
                 Image("Start_Screen")
                     .resizable()
                     .scaledToFill()
                     .ignoresSafeArea()
 
-                // Dark overlay
+                // Dark overlay for readability
                 Color.black.opacity(0.35)
                     .ignoresSafeArea()
 
-                // Main content
                 VStack(spacing: 6) {
                     Spacer()
 
-                    // Logo
+                    // App icon (SF Symbol)
                     Image(systemName: "magnifyingglass")
                         .font(.system(size: 90, weight: .bold))
                         .foregroundColor(.black)
 
-                    // App name
+                    // App title
                     Text("CLUEper")
                         .font(.system(size: 70, weight: .bold))
                         .foregroundColor(.black)
 
                     Spacer()
                     
-                    // New Game button
+                    // Navigates into game setup flow
                     NavigationLink {
                         NewGameFlowView()
                     } label: {
@@ -39,10 +41,7 @@ struct WelcomeView: View {
                             Text("New Game")
                                 .fontWeight(.semibold)
                         }
-                        
-                        //"+New Game" Button Size and Styling
                         .frame(width: 220, height: 50)
-                        
                         .background(Color.red)
                         .foregroundColor(.black)
                         .cornerRadius(12)
@@ -54,7 +53,7 @@ struct WelcomeView: View {
 
                     Spacer()
 
-                    // Marquee text - Animated Rolling Text
+                    // Scrolling description text
                     MarqueeText(
                         text: "Track suspects, weapons, and rooms as you solve the mystery. Never run out of notecards again!",
                         font: .footnote,
@@ -68,17 +67,5 @@ struct WelcomeView: View {
                 }
             }
         }
-    }
-}
-
-
-
-
-
-// Xcode 14 preview support
-struct WelcomeView_Previews: PreviewProvider {
-    static var previews: some View {
-        WelcomeView()
-            //.preferredColorScheme(.dark)
     }
 }
