@@ -21,6 +21,9 @@ Prepare the app for eventual iOS App Store release
 
 Milestone 3: I would like to get the legend removed from the AI assistant page. I was originally planning on completing that analysis page next. I will be renaming it since it won't be using any API for any AI chat. It'll be hard-coded. But for now, I think I'm going to use Milestone 3 to transfer the whole project over to react.
 
+Milestone Finals Week: Would love to polish up some bugs and ideas I have listed in the attached pdf as well as push to app store!
+
+
 FEATURES
 Preloaded Clue categories
 
