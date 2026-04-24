@@ -159,7 +159,7 @@ I have also implemented a save feature if you were to pause the game and come ba
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/96a2f6e9-60f4-4264-a468-3e085f04d8c9" width="10%" />
-  <img src="https://github.com/user-attachments/assets/8d794690-da40-4cc0-bdf1-27f1ed977ba8" width="10" />
+  <img src="https://github.com/user-attachments/assets/8d794690-da40-4cc0-bdf1-27f1ed977ba8" width="10%" />
 </p>
 
 5 Minute Video - Milestone 1
