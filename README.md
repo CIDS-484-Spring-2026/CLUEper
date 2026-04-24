@@ -1,5 +1,7 @@
 CLUEper
+
 CAPSTONE PROJECT - CIDS484
+
 Project Description
 
 CLUEper is an iOS mobile application idea I have had since I was a kid. Whenever I’d play the board game CLUE with my family, we’d always run out of the paper notecards. The idea behind this app is to replace the physical notecards with an electronic one, allowing players to digitally track suspects, weapons, and rooms across rounds of gameplay.
