@@ -60,6 +60,7 @@ Milestone 1
 
 TBD… Every page so far has its own file, like "progress bar," which is used more than once. I would like to overhaul the file structure and add some folders.
 
+```
 Milestone 2 update
 CLUEper
 │
@@ -79,7 +80,11 @@ CLUEper
 │   └── Reusable UI Components
 │
 └── Assets
+```
+
+```
 Milestone 3 update
+
 CLUEper
 │
 ├── CLUEperApp.swift
@@ -125,7 +130,9 @@ CLUEper
 │   └── WelcomeView.swift
 │
 └── Images
-└── Assets.xcassets
+    └── Assets.xcassets
+```
+
 CURRENT STATUS
 Milestone Update 1
 
