@@ -169,8 +169,7 @@ This allows you to tab over to the previous logs of recorded game rounds that yo
 Milestone Update3: 
 We have a detective analysis page! This page pulls directly from the recorded logs it will update probability of whay is likely to be in the middle and what guess is your best accusation as well as attempt to show you how high a threat other players could be with information they should know. (Obviously they may not being using this app and could make mistakes and be further from knowing than the app shows in real life) I have also implemented a save feature if you were to pause the game and come back to it later, as well as the abiilty delete last recorded round incase you miss entered information. 
 
-<img width="252" height="550" alt="image" src="https://github.com/user-attachments/assets/96a2f6e9-60f4-4264-a468-3e085f04d8c9" />
-<img width="252" height="550" alt="Screenshot 2026-04-24 at 4 51 14 PM" src="https://github.com/user-attachments/assets/8d794690-da40-4cc0-bdf1-27f1ed977ba8" />
+<img width="252" height="550" alt="image" src="https://github.com/user-attachments/assets/96a2f6e9-60f4-4264-a468-3e085f04d8c9" /> <img width="252" height="550" alt="Screenshot 2026-04-24 at 4 51 14 PM" src="https://github.com/user-attachments/assets/8d794690-da40-4cc0-bdf1-27f1ed977ba8" />
 
 
 ________________________________________________________________________________________________________________________________________________________________________________________
