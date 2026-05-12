@@ -33,13 +33,18 @@ Weapons
 Rooms
 
 Toggle or mark cards as:
-<img width="193" height="22" alt="Screenshot 2026-03-10 115157" src="https://github.com/user-attachments/assets/472d0ce2-21f2-4d5b-8fce-bcf061d12c70" />
+
+<img width="100" height="10" alt="Screenshot 2026-03-10 115157" src="https://github.com/user-attachments/assets/472d0ce2-21f2-4d5b-8fce-bcf061d12c70" />
 Round logging
+
+
 
 Track which player should play a card. If it were you making the accusation, what cards were you shown?
 
 <img width="325" height="669" alt="Screenshot 2026-03-10 113555" src="https://github.com/user-attachments/assets/db7eda9d-6c91-4f0f-bf90-33ae1d537c60" />
 Optional additional notes
+
+
 I have yet to implement this.
 I did make it possible for you to override the icon in the DetectiveNotes boxes.
 Game reset functionality
