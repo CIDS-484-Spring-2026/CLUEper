@@ -182,7 +182,9 @@ I have improved the save game feature as well as the titles of saved games. I ma
 Steps needed to download the app in its current state to your iPhone
 
 Download: TestFlight
+
 Click this link from your device: https://testflight.apple.com/join/fSKMEjM4
+
 Click Install
 
 Note: This is an older version of the app that was improved and is not in its current state. You'll notice some UI issues, like an oval/circle wrapping around text buttons. (This was meant to wrap around the button as a whole, not the text. It did just that; you'll notice that if you don't click the text, the button doesn't register. This has been patched. 
