@@ -150,30 +150,47 @@ I also plan for near the end of milestone 2 starting an AI probability screen to
 
 Milestone Update 2
 
-We now have the ability to log which cards you have and view the DetectiveNotesView you then have tabs at the top of the screen as shown here:
+We now have the ability to log which cards you have and view the DetectiveNotesView. You then have tabs at the top of the screen as shown here:
 
 <img width="300" height="137" alt="Screenshot 2026-03-10 115720" src="https://github.com/user-attachments/assets/eba1d903-6b3c-412d-899c-2ec4dbcd97d5" />
 
 This allows you to tab over to the previous logs of recorded game rounds that you create when clicking on the +log option.
 
-The AI probability page is yet to be implemented however simple rules are already auto checking off things in your DetectiveNotesView screen.
+The AI probability page is yet to be implemented; however, simple rules are already auto-checking off things in your DetectiveNotesView screen.
 
-For example when recording a round if you say someone showed you a certain card that card will automatically be checked off on the Notes page.
+For example, when recording a round, if you say someone showed you a certain card, that card will automatically be checked off on the Notes page.
 
 I do still need to make it give a red "x" for everyone else, as you can't have more than one of the same card.
 
 Milestone Update 3
 
-We have a detective analysis page. This page pulls directly from the recorded logs. It will update probability of what is likely to be in the middle and what guess is your best accusation as well as attempt to show you how high a threat other players could be with information they should know.
+We have a detective analysis page. This page pulls directly from the recorded logs. It will update the probability of what is likely to be in the middle and what guess is your best accusation, as well as attempt to show you how high a threat other players could be with information they should know.
 
-Obviously they may not be using this app and could make mistakes and be further from knowing than the app shows in real life.
+Obviously, they may not be using this app and could make mistakes and be further from knowing than the app shows in real life.
 
-I have also implemented a save feature if you were to pause the game and come back to it later, as well as the ability to delete last recorded round in case you miss entered information.
+I have also implemented a save feature if you were to pause the game and come back to it later, as well as the ability to delete the last recorded round in case you misentered information.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/96a2f6e9-60f4-4264-a468-3e085f04d8c9" width="15%" />
   <img src="https://github.com/user-attachments/assets/8d794690-da40-4cc0-bdf1-27f1ed977ba8" width="15%" />
 </p>
+
+Final Milestone Updates
+
+I have improved the save game feature as well as the titles of saved games. I made the text for the different tabbed view black and more dimmed if not selected, making it clear which view you are currently seeing. I uploaded the app to my Apple Developer account on TestFlight, and it was reviewed and approved to be tested by users. 
+
+Steps needed to download the app in its current state to your iPhone
+
+Download: TestFlight
+Click this link from your device: https://testflight.apple.com/join/fSKMEjM4
+Click Install
+
+Note: This is an older version of the app that was improved and is not in its current state. You'll notice some UI issues, like an oval/circle wrapping around text buttons. (This was meant to wrap around the button as a whole, not the text. It did just that; you'll notice that if you don't click the text, the button doesn't register. This has been patched. 
+
+You will also notice that when going forward and then back on player setup allows you to remove players to a lower count than 3, which was never intended. 
+
+Please give feedback on any errors or bugs I may have missed!
+
 
 5 Minute Video - Milestone 1
 
@@ -186,3 +203,7 @@ https://mediaspace.wisconsin.edu/media/Kaltura+Capture+recording+-+March+27th+20
 5 Minute Video - Milestone 3
 
 https://mediaspace.wisconsin.edu/media/Kaltura+Capture+recording+-+April+24th+2026%2C+5%3A37%3A14+pm/1_o6rztoc2
+
+Final Presentation Video
+
+
